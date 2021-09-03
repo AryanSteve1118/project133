@@ -3,7 +3,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df=pd.read_csv('data.csv')
+df=pd.read_csv('c134.csv')
 
 X = df.iloc[:,[3,4]].values
 
